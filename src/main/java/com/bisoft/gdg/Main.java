@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
         Main m = new Main();
         try {
-            URL data = Main.class.getResource("/small.in");
+            URL data = Main.class.getResource("/data.in");
             m.processData(data.getPath());
         } catch (Exception e) {
             logger.error("Error processing problem ", e);
